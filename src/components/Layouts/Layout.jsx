@@ -1,14 +1,12 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 
 // eslint-disable-next-line react/prop-types
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
         {children}
-      </main>
       <Footer />
     </div>
   );
