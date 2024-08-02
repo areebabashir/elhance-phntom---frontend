@@ -4,6 +4,7 @@ import HomePage from "./components/pages/HomePage";
 import Cabinet from './components/pages/Cabinet';
 import Events from './components/pages/Events';
 import Contact from './components/pages/contactus';
+import JoinPage from './components/pages/JoinPage';
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
         <Route path="/cabinet" element={<Cabinet />} />
         <Route path="/events" element={<Events/>} />
         <Route path="/contactus" element={<Contact/>} />
-
-
-
+        <Route path="/join" element={<JoinPage />} />
 
       </Routes>
     </Router>
