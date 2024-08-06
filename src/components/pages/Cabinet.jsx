@@ -1,6 +1,7 @@
 import Layout from "../Layouts/Layout"
 import safi from "../../assets/safii.jpeg"
 import sarmad from "../../assets/sarmad.jpeg"
+import atiya from "../../assets/attiya.png"
 import aliyan from "../../assets/aliyan.jpeg"
 import hafsa from "../../assets/hafsa.jpeg"
 import shahyar from "../../assets/shahyar.jpeg"
@@ -11,7 +12,7 @@ import shamir from "../../assets/shamir.jpeg"
 import fatima from "../../assets/fatima.jpg"
 import sharjeel from "../../assets/sharjeel.jpeg"
 import gulzareen from "../../assets/gulzareen.jpeg"
-import areeba from "../../assets/areeba.jpeg"
+import areeba from "../../assets/areeba.png"
 
 
 
@@ -27,23 +28,23 @@ const Cabinet = () => {
   };
   return (
     <Layout>
-    <div className="w-full text-black text-center text-5xl font-bold" style={gradientStyle}>
+    <div className="w-full text-white text-center text-5xl font-bold flex items-center justify-center pb-36"style={gradientStyle} >
       <h1>
         Welcome, Meet <br /> Our Team!
       </h1>
     </div>
-    <div className="container mx-auto py-8 ">
+    <div className=" ">
       <div className="flex flex-col md:flex-row justify-center items-center m-auto w-full md:w-[80%] md:absolute md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">
         <div className="max-w-xs mx-auto md:pt-0  bg-white shadow-2xl text-center text-lg rounded-lg p-8 " style={cardStyle}>
           <div className="relative h-12">
             <img
               src={safi}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 object-cover object-top h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Muhammad Saffi Ul Haq</div>
+            <div className="text-2xl font-bold text-black">M.Saffi-Ul-Haq</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
@@ -59,7 +60,7 @@ const Cabinet = () => {
             <img
               src={sarmad}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 object-cover object-top h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
@@ -77,9 +78,9 @@ const Cabinet = () => {
         <div className="max-w-xs mx-auto md:pt-0 pt-10 bg-white shadow-2xl text-center text-lg rounded-lg p-8" style={cardStyle}>
           <div className="relative h-12">
             <img
-              src={sarmad}
+              src={atiya}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
@@ -101,7 +102,7 @@ const Cabinet = () => {
             <img
               src={aliyan}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
@@ -120,7 +121,7 @@ Finance Secretary            </h3>
             <img
               src={hafsa}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
@@ -139,7 +140,7 @@ General Secretary            </h3>
             <img
               src={shahyar}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
@@ -161,19 +162,18 @@ General Secretary            </h3>
             <img
               src={haroon}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Haroon  </div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
-            </h3>
+      E-commerce Head    </h3>
           </div>
         </div>
         <div className="max-w-xs mx-auto md:pt-0 bg-white shadow-2xl text-center text-lg rounded-lg p-8" style={cardStyle}>
@@ -181,18 +181,18 @@ General Secretary            </h3>
             <img
               src={daniyal}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Daniyal Mehran</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+              Management Head
             </h3>
           </div>
         </div>
@@ -201,18 +201,18 @@ General Secretary            </h3>
             <img
               src={talha}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Talha Iqbal</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+              Marketing Head 
             </h3>
           </div>
         </div>
@@ -221,18 +221,18 @@ General Secretary            </h3>
             <img
               src={shamir}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Shahmir Hassan</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+              Blockchain Head
             </h3>
           </div>
         </div>
@@ -243,18 +243,18 @@ General Secretary            </h3>
             <img
               src={fatima}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Fatima Nadeem</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+            Graphics Head
             </h3>
           </div>
         </div>
@@ -263,18 +263,18 @@ General Secretary            </h3>
             <img
               src={sharjeel}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Sharjeel</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+              Freelancing Head
             </h3>
           </div>
         </div>
@@ -283,18 +283,19 @@ General Secretary            </h3>
             <img
               src={gulzareen}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Gulzareen
+            </div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+             Photography Head
             </h3>
           </div>
         </div>
@@ -303,23 +304,23 @@ General Secretary            </h3>
             <img
               src={areeba}
               alt="Profile"
-              className="w-32 h-32 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              className="w-32 h-32 object-cover object-top rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
           <div className="p-8">
-            <div className="text-2xl font-bold text-black">Your Name</div>
+            <div className="text-2xl font-bold text-black">Areeba Bashir</div>
             <h3
               className="mt-4 text-white pl-4 pr-4 rounded-3xl"
               style={{
                 background: 'linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))',
               }}
             >
-              Your Title
+             Web  Head
             </h3>
           </div>
         </div>
-      </div>
-    </div>
+      </div></div>
+   
   </Layout>
   )
 }

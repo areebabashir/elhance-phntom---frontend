@@ -5,15 +5,15 @@ const Aboutus = () => {
   return (
     <Layout>
       <div
-        className="flex flex-col items-center justify-center m-auto  pt-24 "
-        style={{ width: "80%" }}
+        className="flex flex-col items-center justify-center m-auto  pt-24 max-w-screen-xl  mx-auto p-4 "
+  
       >
         <div
           className="text-center w-full rounded-lg"
           style={{ border: "6px solid black" }}
         >
           <h1
-            className="text-7xl font-bold text-white p-6  md:ml-32  md:mr-32 rounded-2xl mt-6 mb-6"
+            className="text-7xl font-bold text-white p-6  md:ml-32 mr-4 ml-4 md:mr-32 rounded-2xl mt-6 mb-6"
             style={{
               background:
                 "linear-gradient(hsla(200, 80%, 69%, 1), hsla(269, 100%, 65%, 1))",
@@ -42,7 +42,7 @@ const Aboutus = () => {
           <h1 className="text-3xl font-bold text-center mb-4">
            Advisor:
           </h1>
-          <div className="flex md:flex-row flex-col">
+          <div className="flex md:flex-row flex-col items-center">
             {/* Left Div */}
             <div className="md:w-[60%] w-full ">
               <p className="text-lg pt-10 pl-10">
@@ -52,7 +52,7 @@ const Aboutus = () => {
                 their mentorship..
               </p>
             </div>
-           <div className="md:w-[40%] pl-20 flex w-full flex-col items-center mt-10">
+           <div className="md:w-[40%] md:pl-20 flex w-full flex-col items-center mt-10">
             <div className="w-36 h-36">
               <img
                 src={fawad}
